@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts Link Start -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- Google Fonts Link End -->
+
+  <title>class 17 part mixitup</title>
+
+  <!-- CSS links Start -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- CSS links End -->
+
+</head>
+
+<body>
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 m-auto text-center mb-5">
+          <button class="btn btn-success" data-filter="all">All</button>
+          <button class="btn btn-success" data-filter=".design">Design</button>
+          <button class="btn btn-success" data-filter=".brand">Brand</button>
+          <button class="btn btn-success" data-filter=".photos">Photos</button>
+        </div>
+      </div>
+      <div class="container row">
+        <div class="col-lg-4 mix brand">
+          <div class="portfolio_img">
+            <img src="images/item-1.jpg" alt="" class="w-100 img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-4 mix photos">
+          <div class="portfolio_img">
+            <img src="images/item-2.jpg" alt="" class="w-100 img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-4 mix design">
+          <div class="portfolio_img">
+            <img src="images/item-3.jpg" alt="" class="w-100 img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-4 mt-3 mix brand photos">
+          <div class="portfolio_img">
+            <img src="images/item-4.jpg" alt="" class="w-100 img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-4 mt-3 mix design">
+          <div class="portfolio_img">
+            <img src="images/item-5.jpg" alt="" class="w-100 img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-4 mt-3 mix photos">
+          <div class="portfolio_img">
+            <img src="images/item-6.jpg" alt="" class="w-100 img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Js links Start -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <!-- Js links End -->
+
+</body>
+
+</html>
